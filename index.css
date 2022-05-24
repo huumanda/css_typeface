@@ -1,0 +1,1317 @@
+.letter {
+
+    width:200px; /*resize as you see fit */
+    height:200px; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border:1px solid #000; /*feel free to remove or hide this rule */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+
+
+/* A */
+.a-stem1{
+    position:absolute;
+    top: 0;
+    left:25%;
+    width: 25px;
+    height: 200px;
+    transform: skew(-17deg);
+    background: black;
+    }
+  
+.a-stem2{
+    position:absolute;
+    left:60%;
+    width: 25px;
+    height: 200px;
+    transform: skew(17deg);
+    background: black;
+    }
+
+.a-crossbar{
+    position:absolute;
+    bottom:87.5px;
+    left:30%;
+    width: 80px;
+    height: 25px;
+    background: black;
+}
+
+/* B */
+  
+.b-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+    }
+
+.b-bowlT{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:120px;
+    height: 25px;
+background: black;
+}
+
+.b-bowlTR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    /* transform: skew(28deg);    
+    SKEW HAS DIFFERENT LOOK THAN ROTATE but rotate looks better
+    */
+    transform: rotate(-37deg);
+}
+
+.b-bowlR{
+    position: absolute;
+    top: 31px;
+    left:70%;
+    height:50px;
+    width:25px ;
+background: black;
+}
+
+.b-bowlMR{
+    position: absolute;
+    top:69px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+}
+.b-bowlM{
+    position:absolute;
+    /* 100px (half of B height) minus 25/2 (height of bar divided by 2 (centered)) = 87.5 */
+    bottom:87.5px;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+    z-index: index 1;
+
+}
+
+.b-bowlMR2{
+    position: absolute;
+    top:91px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+}
+
+
+.b-bowlB{
+    position: absolute;
+    bottom:0px;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+}
+
+.b-bowlBR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background: black ;
+    transform: rotate(37deg);
+    z-index: 1;
+}
+
+.b-bowlR2{
+    position: absolute;
+    bottom: 31px;
+    left:70%;
+    height:50px;
+    width:25px ;
+    background: black;
+}
+
+
+/* C */
+/* .c-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+    } */
+
+
+.c-stem{
+    position:absolute;
+    top: 30px;
+    left:10%;
+    width: 25px;
+    height: 140px;
+    background: black ;
+    z-index: 1;
+}
+
+.c-T{
+    position: absolute;
+    top:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+.c-B{
+    position: absolute;
+    bottom:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+.c-TR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.c-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+
+/* 
+UPDATE 1 May 18, 2022:
+
+Rectangle like BL/TL didn't work well, using a triangle matched better
+
+.c-BL{
+    position: absolute;
+    bottom:3px;
+    left:31px;
+    height:40px;
+    width:25px ;
+    background-color: rgba(255, 166, 0, 0.434);
+    transform: rotate(-37deg);
+    z-index: 2;
+} 
+
+
+UPADTE 2 May 23, 2022: 
+
+After completing the alphabets, triangles didnt look right because its not consistent
+.c-BL{
+    position: absolute;
+    left: 20px;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    border-top: 25px solid black;
+    border-left: 25px solid transparent;
+    z-index: 2;
+} */
+
+.c-BL{
+    position: absolute;
+    bottom:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+
+.c-TL{
+    position: absolute;
+    top:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);    
+}
+
+/* D */
+
+
+.d-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.d-T{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+}
+
+.d-B{
+    position: absolute;
+    bottom:0;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+}
+
+.d-TR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.d-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.d-R{
+    position:absolute;
+    top: 31px;
+    left:140px;
+    width: 25px;
+    height: 138px;
+    background: black;  
+    z-index: 1;
+}
+
+/* E */
+
+.e-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.e-T{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+
+.e-B{
+    position: absolute;
+    bottom:0;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+.e-M{
+    position: absolute;
+    bottom:87.5px;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+
+
+/* F */
+
+
+.f-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.f-T{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+
+.f-M{
+    position: absolute;
+    bottom:87.5px;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+
+
+/* G */
+
+.g-TL{
+    position: absolute;
+    top:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.g-BL{
+    position: absolute;
+    bottom:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.g-stem{
+    position:absolute;
+    top: 30px;
+    left:10%;
+    width: 25px;
+    height: 140px;
+    background: black ;
+    z-index: 1;
+}
+
+.g-T{
+    position: absolute;
+    top:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+.g-B{
+    position: absolute;
+    bottom:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+
+.g-TR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.g-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+.g-R{
+    position:absolute;
+    bottom:32px;
+    left:140px;
+    width: 25px;
+    height: 50px;
+    background: black ;
+    z-index: 1;
+}
+
+
+.g-M{
+    position:absolute;
+    bottom:57px;
+    left:115px;
+    width: 50px;
+    height: 25px;
+    background: black ;
+    z-index: 1;
+}
+
+/* H */
+
+.h-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.h-stem2{
+    position:absolute;
+    top: 0;
+    left:140px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.h-crossbar{
+    position:absolute;
+    bottom:87.5px;
+    left:10%;
+    width: 140px;
+    height: 25px;
+    background: black;
+}
+
+/* I */
+
+.i-stem{
+    position:absolute;
+    top: 0;
+    left:87.5px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+
+/* J */
+
+.j-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.j-stem{
+    position:absolute;
+    top: 0;
+    left:140px;
+    width: 25px;
+    height: 170px;
+    background: black ;
+    z-index: 1;
+}
+.j-B{
+    position: absolute;
+    bottom:0;
+    left:55px;
+    width:85px;
+    height: 25px;
+    background: black;
+    }
+
+.j-BL{
+    position: absolute;
+    bottom:3px;
+    left:38px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+/* K */
+
+.k-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+/* When skewing, the arm and legs looks thinner even though its the same width as the stems
+so I increased the width to make it look visually balanced */
+
+.k-arm{
+    position:absolute;
+    top: 0;
+    left:80px;
+    width: 32px;
+    height: 100px;
+    background: black;
+    transform: skew(135deg);
+}
+.k-leg{
+    position:absolute;
+    bottom: 0;
+    left:80px;
+    width: 32px;
+    height: 100px;
+    background: black;
+    transform: skew(-135deg);
+}
+
+/* L */
+.l-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.l-leg{
+    position:absolute;
+    bottom: 0;
+    left:10%;
+    width: 140px;
+    height: 25px;
+    background: black;
+}
+
+/* M */
+.m-stem{
+    position:absolute;
+    top: 0;
+    left:19px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.m-stem2{
+    position:absolute;
+    top: 0;
+    left:142px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+.m-L{
+    position:absolute;
+    top: 0;
+    left:50px;
+    width: 25px;
+    height: 200px;
+    background: black;
+    transform: skew(17deg);
+}
+.m-R{
+    position:absolute;
+    top: 0;
+    left:110px;
+    width: 25px;
+    height: 200px;
+    background: black;
+    transform: skew(-17deg);
+}
+
+/* N */
+.n-stem{
+    position:absolute;
+    top: 0;
+    left:20px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.n-stem2{
+    position:absolute;
+    top: 0;
+    left:140px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+.n-L{
+    position:absolute;
+    top: 0;
+    left:80px;
+    width: 28px;
+    height: 200px;
+    background: black;
+    transform: skew(30deg);
+}
+
+
+/* O */
+
+.o-TL{
+    position: absolute;
+    top:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.o-BL{
+    position: absolute;
+    bottom:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.o-L{
+    position:absolute;
+    top: 30px;
+    left:10%;
+    width: 25px;
+    height: 140px;
+    background: black ;
+    z-index: 1;
+}
+
+.o-TR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.o-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.o-R{
+    position:absolute;
+    top: 30px;
+    left:140px;
+    width: 25px;
+    height: 140px;
+    background: black ;
+    z-index: 1;
+}
+.o-T{
+    position: absolute;
+    top:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+.o-B{
+    position: absolute;
+    bottom:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+/* P */
+
+.p-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+    }
+
+.p-bowlT{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:120px;
+    height: 25px;
+background: black;
+}
+
+.p-bowlTR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.p-bowlR{
+    position: absolute;
+    top: 31px;
+    left:70%;
+    height:50px;
+    width:25px ;
+background: black;
+}
+
+.p-bowlMR{
+    position: absolute;
+    top:69px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+}
+.p-bowlM{
+    position:absolute;
+    bottom:87.5px;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+    z-index: index 1;
+} 
+
+/* Q */
+
+.q-TL{
+    position: absolute;
+    top:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.q-BL{
+    position: absolute;
+    bottom:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.q-L{
+    position:absolute;
+    top: 30px;
+    left:10%;
+    width: 25px;
+    height: 140px;
+    background: black ;
+    z-index: 1;
+}
+
+.q-TR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.q-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.q-R{
+    position:absolute;
+    top: 30px;
+    left:140px;
+    width: 25px;
+    height: 140px;
+    background: black ;
+    z-index: 1;
+}
+.q-T{
+    position: absolute;
+    top:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+.q-B{
+    position: absolute;
+    bottom:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+.q-leg{
+    position:absolute;
+    bottom: 0;
+    left:120px;
+    width: 30px;
+    height: 65px;
+    background: black;
+    transform: skew(45deg);
+}
+
+/* Rotate is ugly
+.q-leg{
+    position:absolute;
+    bottom: 0;
+    left:130px;
+    width: 30px;
+    height: 45px;
+    background: black;
+    transform: rotate(-70deg);
+} */
+/* r */
+
+
+.r-stem{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 25px;
+    height: 200px;
+    background: black;
+    }
+
+.r-bowlT{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:120px;
+    height: 25px;
+background: black;
+}
+
+.r-bowlTR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.r-bowlR{
+    position: absolute;
+    top: 31px;
+    left:70%;
+    height:50px;
+    width:25px ;
+background: black;
+}
+
+.r-bowlMR{
+    position: absolute;
+    top:69px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+}
+.r-bowlM{
+    position:absolute;
+    bottom:87.5px;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+    z-index: index 1;
+} 
+
+.r-leg{
+    position:absolute;
+    bottom: 0;
+    left:110px;
+    width: 30px;
+    height: 90px;
+    background: black;
+    transform: skew(30deg);
+    
+    
+}
+
+/* S */
+
+/* TOP PORTION */
+
+.s-T{
+    position: absolute;
+    top:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+.s-TL{
+    position: absolute;
+    top:3px;
+    left:29.5px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+}
+
+.s-TR{
+    position: absolute;
+    top:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+}
+
+.s-L{
+    position: absolute;
+    top: 31px;
+    left:10%;
+    height:50px;
+    width:25px ;
+    background: black;
+}
+
+/* SPINT */
+
+.s-ML{
+    position: absolute;
+    top:69.5px;
+    left:30px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+}
+.s-M{
+    position: absolute;
+    bottom:87.5px;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+.s-MR{
+    position: absolute;
+    top:91.5px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+}
+/* BOTTOM PORTION */
+
+.s-R{
+    position: absolute;
+    bottom: 31px;
+    left:70%;
+    height:50px;
+    width:25px ;
+    background: black;
+}
+
+.s-B{
+    position: absolute;
+    bottom:0px;
+    left:10%;
+    width:120px;
+    height: 25px;
+    background: black;
+}
+
+.s-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background: black ;
+    transform: rotate(37deg);
+    z-index: 1;
+}
+.s-BL{
+    position: absolute;
+    bottom:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.s-B{
+    position: absolute;
+    bottom:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+/* T */
+
+.t-stem{
+    position:absolute;
+    top: 0;
+    left:82.5px;
+    width: 25px;
+    height: 200px;
+    background: black;
+}
+
+.t-bar{
+    position:absolute;
+    top: 0;
+    left:10%;
+    width: 145px;
+    height: 25px;
+    background: black;
+}
+
+/* U */
+.u-BL{
+    position: absolute;
+    bottom:3px;
+    left:29px;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(-37deg);
+} 
+
+.u-L{
+    position:absolute;
+    top: 0px;
+    left:10%;
+    width: 25px;
+    height: 168px;
+    background: black ;
+    z-index: 1;
+}
+
+.u-BR{
+    position: absolute;
+    bottom:3px;
+    left:65%;
+    height:40px;
+    width:25px ;
+    background-color: black;
+    transform: rotate(37deg);
+} 
+
+.u-R{
+    position:absolute;
+    top: 0px;
+    left:140px;
+    width: 25px;
+    height: 168px;
+    background: black ;
+    z-index: 1;
+}
+
+.u-B{
+    position: absolute;
+    bottom:0;
+    left:45px;
+    width:95px;
+    height: 25px;
+    background: black;
+}
+
+
+/* V */
+
+.v-stem1{
+    position:absolute;
+    top: 0;
+    left:60%;
+    width: 25px;
+    height: 200px;
+    transform: skew(-17deg);
+    background: black;
+    }
+  
+.v-stem2{
+    position:absolute;
+    left:25%;
+    width: 25px;
+    height: 200px;
+    transform: skew(17deg);
+    background: black;
+    }
+
+/* W */
+
+.w-stem{
+    position:absolute;
+    top: 0;
+    left:25px;
+    width: 25px;
+    height: 200px;
+    background: black;
+    transform: skew(10deg);
+
+}
+
+.w-stem2{
+    position:absolute;
+    top: 0;
+    left:148px;
+    width: 25px;
+    height: 200px;
+    background: black;
+    transform: skew(-10deg);
+
+}
+.w-L{
+    position:absolute;
+    top: 0;
+    left:105px;
+    width: 25px;
+    height: 200px;
+    background: black;
+    transform: skew(10deg);
+}
+.w-R{
+    position:absolute;
+    top: 0;
+    left:65px;
+    width: 25px;
+    height: 200px;
+    background: black;
+    transform: skew(-10deg);
+}
+
+/* X */
+
+.x-R{
+    position:absolute;
+    top: 0;
+    left:80px;
+    width: 28px;
+    height: 200px;
+    background: black;
+    transform: skew(30deg);
+}
+
+.x-L{
+    position:absolute;
+    top: 0;
+    left:80px;
+    width: 28px;
+    height: 200px;
+    background: black;
+    transform: skew(-30deg);
+}
+
+/* Y */
+
+.y-L{
+    position:absolute;
+    top: 0;
+    left:110px;
+    width: 28px;
+    height: 105px;
+    background: black;
+    transform: skew(-30deg);
+}
+
+.y-R{
+    position:absolute;
+    top: 0;
+    left:50px;
+    width: 28px;
+    height: 105px;
+    background: black;
+    transform: skew(30deg);
+}
+
+.y-stem{
+    position:absolute;
+    top:105px;
+    left:80px;
+    width: 28px;
+    height: 96px;
+    background: black;
+    z-index: -1;
+}
+
+/* Z */
+
+
+.z-T{
+    position: absolute;
+    top:0;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+
+.z-B{
+    position: absolute;
+    bottom:0;
+    left:10%;
+    width:140px;
+    height: 25px;
+    background: black;
+}
+.z-R{
+    position:absolute;
+    top: 25px;
+    left:75px;
+    width: 30px;
+    height: 150px;
+    background: black;
+    transform: skew(-36deg);
+}
