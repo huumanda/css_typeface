@@ -1,0 +1,223 @@
+body{
+    margin: auto;
+    background-color: black;
+}
+
+.background{
+    position: absolute;
+    z-index: -10;
+    opacity: 10%;
+}
+
+.container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:1200px auto;
+    grid-template-rows: 650px auto ;
+}
+
+
+.item2{
+    display: grid;
+    align-content: center;
+  }
+
+.item1{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Theorizing .letter {
+    /* fixing the space between in-line block */
+    margin-left: -30px;
+    margin-right: -110px;
+
+    transform: scale(0.55);}
+
+.The .letter {
+    /* fixing the space between in-line block and other div above and below */
+    margin-left: -30px;
+    margin-right: -110px;
+    top: -40px;
+
+    left: 30%;
+    transform: scale(0.55);}
+
+.Web .letter {
+    margin-left: -30px;
+    margin-right: -110px;
+    top: -70px;
+    left: 30%;
+
+
+    transform: scale(0.55);}
+
+        
+.Web .letter-e {
+    /* fixing only the spacing "E" in web */
+    margin-left: -10px;
+}
+
+.letter-t:hover{
+    /* experiment with clip path with https://bennettfeely.com/clippy/ */
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+    /* background: rgb(201, 3, 3); */
+
+    /* created by accident, i like the random flickering */
+    /* the flicker effect does not work when I give it to .Theorizing / hover over the whole word, so have to add the effect seperately */
+}
+.letter-h:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-e:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-o:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-r:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-i:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-z:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+
+.letter-n:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-g:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-w:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-b:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-a:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-r:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+.letter-m:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+
+.letter-p:hover{
+    clip-path: polygon(0 50%, 0 50%, 100% 50%, 100% 50%);
+}
+
+
+p ,ul ,li,h2,h3{
+    color: white;
+}
+
+p, h3,li{
+font-family: articulat-cf, sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+font-size: 15px;
+
+}
+
+.item3{
+    margin-left: 50px;
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+a {
+    color: greenyellow;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.morning .letter {
+    /* fixing the space between in-line block */
+    margin-left: -30px;
+    margin-right: -110px;
+
+    transform: scale(0.5);}
+
+.program .letter {
+    /* fixing the space between in-line block and other div above and below */
+    margin-left: -30px;
+    margin-right: -110px;
+    top: -40px;
+
+    left: 30%;
+    transform: scale(0.5);}
+
+
+
+h1,h5{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    transform: rotate(-90deg);
+    align-items:center;
+    color: white;
+    padding: 0;
+    margin: 50px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h4{
+    color: greenyellow;
+}
+h5{
+    font-size: 80px;
+    color: greenyellow;
+}
+.item4{
+    display: grid;
+    grid-template-columns: 150px 170px auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -50px;
+    margin-left:10px ;
+
+  }
+
+.list1{
+    border-right:2px solid white;
+}
+.list5{
+    display: grid;
+    border-right:2px solid white;
+    justify-content:left
+}
+
+
+li{
+    list-style: none
+}
+
+.list2,.list3,.list4{
+    display: grid;
+    align-items: baseline;
+
+}

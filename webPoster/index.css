@@ -5,7 +5,7 @@
     display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
     /* border:1px solid #000;  */
     position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
-    
+
     /* after finishing letters, use scale to make it look more long/squished */
     
     transform: scale(1,0.9);
@@ -21,7 +21,8 @@
     width:40px;
     height: 230px;
     transform: skew(-17deg);
-    background: black;
+    background: greenyellow;
+    
     }
   
 .a-stem2{
@@ -30,7 +31,7 @@
     width:40px;
     height: 230px;
     transform: skew(17deg);
-    background: black;
+    background: greenyellow;
     }
 
 .a-crossbar{
@@ -39,7 +40,7 @@
     left:60px;
     width: 80px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 /* B */
@@ -50,7 +51,7 @@
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     }
 
 .b-bowlT{
@@ -59,7 +60,7 @@
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .b-bowlTR{
@@ -68,7 +69,7 @@
     left:126PX;
     height:56px;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     /* transform: skew(28deg);    
     SKEW HAS DIFFERENT LOOK THAN ROTATE but rotate looks better
     */
@@ -81,7 +82,7 @@
     left:140PX;
     height:56px;
     width:40px ;
-    background: black;
+    background: greenyellow;
 }
 
 .b-bowlMR{
@@ -90,7 +91,7 @@
     left:126PX;
     height:56px;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 }
 .b-bowlM{
@@ -100,7 +101,7 @@
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
     z-index: index 1;
 
 }
@@ -111,7 +112,7 @@
     left:126PX;
     height:56px;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 }
 
@@ -122,7 +123,7 @@
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .b-bowlBR{
@@ -131,7 +132,7 @@
     left:126PX;
     height:56px;
     width:40px ;
-    background: black;
+    background: greenyellow;
     transform: rotate(45deg);
     z-index: 1;
 }
@@ -142,7 +143,7 @@
     left:140PX;
     height:56px;
     width:40px ;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -153,7 +154,7 @@
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     } */
 
 
@@ -163,7 +164,7 @@
     left:5PX;
     width:40px;
     height: 150px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -174,7 +175,7 @@
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .c-B{
@@ -183,7 +184,7 @@
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .c-TR{
@@ -192,7 +193,7 @@
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -202,7 +203,7 @@
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -233,7 +234,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     width: 0;
     height: 0;
     bottom: 0;
-    border-top: 40px solid black;
+    border-top: 40px solid greenyellow;
     border-left: 40px solid transparent;
     z-index: 2;
 } */
@@ -244,7 +245,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -255,7 +256,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);    
 }
 
@@ -268,7 +269,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .d-T{
@@ -277,7 +278,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .d-B{
@@ -286,7 +287,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .d-TR{
@@ -295,7 +296,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -305,7 +306,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -315,7 +316,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:140px;
     width:40px;
     height: 150px;
-    background: black;  
+    background: greenyellow;  
     z-index: 1;
 }
 
@@ -327,7 +328,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .e-T{
@@ -336,7 +337,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:140px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .e-B{
@@ -345,7 +346,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:140px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -355,7 +356,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:140px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -368,7 +369,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .f-T{
@@ -377,7 +378,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:140px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .f-M{
@@ -386,7 +387,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:140px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -398,7 +399,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -408,7 +409,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -418,7 +419,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:5PX;
     width:40px;
     height: 150px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -429,7 +430,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .g-B{
@@ -438,7 +439,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -448,7 +449,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -458,7 +459,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 .g-R{
@@ -467,7 +468,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:140px;
     width:40px;
     height: 57px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -479,7 +480,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:115px;
     width: 65px;
     height: 40px;
-    background: black;
+    background: greenyellow;
     z-index: 1;
 }
 
@@ -491,7 +492,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .h-stem2{
@@ -500,7 +501,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:140px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .h-crossbar{
@@ -509,7 +510,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width: 140px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 /* I */
@@ -520,7 +521,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:80px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .i-T{
@@ -529,7 +530,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width: 160px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .i-B{
@@ -538,7 +539,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width: 160px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -551,7 +552,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -561,7 +562,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:140px;
     width:40px;
     height: 190px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -571,7 +572,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:56px;
     width:85px;
     height: 40px;
-    background: black;
+    background: greenyellow;
     }
 
 .j-BL{
@@ -580,7 +581,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:30px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -592,7 +593,7 @@ After completing the alphabets, triangles didnt look right because its not consi
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 /* When skewing, the arm and legs looks thinner even though its the same width as the stems
@@ -604,7 +605,7 @@ so I increased the width to make it look visually balanced */
     left:80px;
     width: 50px;
     height: 115px;
-    background: black;
+    background: greenyellow;
     transform: skew(140deg);
 }
 .k-leg{
@@ -613,7 +614,7 @@ so I increased the width to make it look visually balanced */
     left:80px;
     width: 50px;
     height: 115px;
-    background: black;
+    background: greenyellow;
     transform: skew(-140deg);
 }
 
@@ -624,7 +625,7 @@ so I increased the width to make it look visually balanced */
     left:15PX;
     width:40px;
     height: 190px;
-    background: black;
+    background: greenyellow;
 }
 
 .l-leg{
@@ -633,7 +634,7 @@ so I increased the width to make it look visually balanced */
     left:55px;
     width:100px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .l-BL{
@@ -642,7 +643,7 @@ so I increased the width to make it look visually balanced */
     left:29px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -654,7 +655,7 @@ so I increased the width to make it look visually balanced */
     left:19px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .m-stem2{
@@ -663,7 +664,7 @@ so I increased the width to make it look visually balanced */
     left:153px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 .m-L{
     position:absolute;
@@ -671,7 +672,7 @@ so I increased the width to make it look visually balanced */
     left:53px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(16deg);
 }
 .m-R{
@@ -680,7 +681,7 @@ so I increased the width to make it look visually balanced */
     left:120px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(-16deg);
 }
 
@@ -691,7 +692,7 @@ so I increased the width to make it look visually balanced */
     left:20px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 
 .n-stem2{
@@ -700,7 +701,7 @@ so I increased the width to make it look visually balanced */
     left:140px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
 }
 .n-L{
     position:absolute;
@@ -708,7 +709,7 @@ so I increased the width to make it look visually balanced */
     left:80px;
     width: 40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(28deg);
 }
 
@@ -721,7 +722,7 @@ so I increased the width to make it look visually balanced */
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -731,7 +732,7 @@ so I increased the width to make it look visually balanced */
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -741,7 +742,7 @@ so I increased the width to make it look visually balanced */
     left:5PX;
     width:40px;
     height: 150px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -752,7 +753,7 @@ so I increased the width to make it look visually balanced */
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -762,7 +763,7 @@ so I increased the width to make it look visually balanced */
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -772,7 +773,7 @@ so I increased the width to make it look visually balanced */
     left:140px;
     width:40px;
     height: 150px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -782,7 +783,7 @@ so I increased the width to make it look visually balanced */
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .o-B{
@@ -791,7 +792,7 @@ so I increased the width to make it look visually balanced */
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 /* P */
@@ -802,7 +803,7 @@ so I increased the width to make it look visually balanced */
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     }
 
 .p-bowlT{
@@ -811,7 +812,7 @@ so I increased the width to make it look visually balanced */
     left:20PX;
     width:120px;
     height: 40px;
-background: black;
+background: greenyellow;
 }
 
 .p-bowlTR{
@@ -820,7 +821,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -830,7 +831,7 @@ background: black;
     left:140PX;
     height:55px;
     width:40px ;
-    background: black;
+    background: greenyellow;
 }
 
 .p-bowlMR{
@@ -839,7 +840,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 }
 .p-bowlM{
@@ -848,7 +849,7 @@ background: black;
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
     z-index: index 1;
 } 
 
@@ -860,7 +861,7 @@ background: black;
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -870,7 +871,7 @@ background: black;
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -880,7 +881,7 @@ background: black;
     left:5PX;
     width:40px;
     height: 150px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -891,7 +892,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -901,7 +902,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -911,7 +912,7 @@ background: black;
     left:140px;
     width:40px;
     height: 150px;
-    background: black;
+    background: greenyellow;
  ;
     z-index: 1;
 }
@@ -921,7 +922,7 @@ background: black;
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .q-B{
@@ -930,7 +931,7 @@ background: black;
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .q-leg{
@@ -939,7 +940,7 @@ background: black;
     left:120px;
     width: 40px;
     height: 65px;
-    background: black;
+    background: greenyellow;
     transform: skew(45deg);
 }
 
@@ -950,7 +951,7 @@ background: black;
     left:140px;
     width: 40px;
     height: 45px;
-    background: black;
+    background: greenyellow;
     transform: rotate(-70deg);
 } */
 /* r */
@@ -962,7 +963,7 @@ background: black;
     left:20PX;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     }
 
 .r-bowlT{
@@ -971,7 +972,7 @@ background: black;
     left:20PX;
     width:120px;
     height: 40px;
-background: black;
+background: greenyellow;
 }
 
 .r-bowlTR{
@@ -980,7 +981,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -990,7 +991,7 @@ background: black;
     left:140PX;
     height:55px;
     width:40px ;
-    background: black;
+    background: greenyellow;
 }
 
 .r-bowlMR{
@@ -999,7 +1000,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 }
 .r-bowlM{
@@ -1008,7 +1009,7 @@ background: black;
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
     z-index: index 1;
 } 
 
@@ -1018,7 +1019,7 @@ background: black;
     left:120px;
     width: 42px;
     height: 95px;
-    background: black;
+    background: greenyellow;
     transform: skew(25deg);
 }
 
@@ -1032,7 +1033,7 @@ background: black;
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 .s-TL{
     position: absolute;
@@ -1040,7 +1041,7 @@ background: black;
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 }
 
@@ -1050,7 +1051,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 }
 
@@ -1060,7 +1061,7 @@ background: black;
     left:5PX;
     height:57px;
     width:40px ;
-    background: black;
+    background: greenyellow;
 }
 
 /* SPINT */
@@ -1071,7 +1072,7 @@ background: black;
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 }
 .s-M{
@@ -1080,7 +1081,7 @@ background: black;
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 .s-MR{
     position: absolute;
@@ -1088,7 +1089,7 @@ background: black;
     left:126PX;
     height:56px;
     width:40px;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 }
 /* BOTTOM PORTION */
@@ -1099,7 +1100,7 @@ background: black;
     left:140PX;
     height:55px;
     width:40px;
-    background: black;
+    background: greenyellow;
 }
 
 .s-B{
@@ -1108,7 +1109,7 @@ background: black;
     left:20PX;
     width:120px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .s-BR{
@@ -1117,7 +1118,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background: black;
+    background: greenyellow;
  ;
     transform: rotate(45deg);
     z-index: 1;
@@ -1128,7 +1129,7 @@ background: black;
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -1138,7 +1139,7 @@ background: black;
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 /* T */
@@ -1149,8 +1150,10 @@ background: black;
     left:80px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
+
 }
+
 
 .t-bar{
     position:absolute;
@@ -1158,7 +1161,7 @@ background: black;
     left:20PX;
     width: 160px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 /* U */
@@ -1168,7 +1171,7 @@ background: black;
     left:19px;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(-45deg);
 } 
 
@@ -1178,7 +1181,7 @@ background: black;
     left:5PX;
     width:40px;
     height: 190px;
-    background: black;
+    background: greenyellow;
     z-index: 1;
 }
 
@@ -1188,7 +1191,7 @@ background: black;
     left:126PX;
     height:56px;;
     width:40px ;
-    background-color: black;
+    background-color: greenyellow;
     transform: rotate(45deg);
 } 
 
@@ -1198,7 +1201,7 @@ background: black;
     left:140px;
     width:40px;
     height: 190px;
-    background: black;
+    background: greenyellow;
     z-index: 1;
 }
 
@@ -1208,7 +1211,7 @@ background: black;
     left:45px;
     width:95px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 
@@ -1221,7 +1224,7 @@ background: black;
     width:40px;
     height: 230px;
     transform: skew(-17deg);
-    background: black;
+    background: greenyellow;
     }
   
 .v-stem2{
@@ -1230,7 +1233,7 @@ background: black;
     width:40px;
     height: 230px;
     transform: skew(17deg);
-    background: black;
+    background: greenyellow;
     }
 
 /* W */
@@ -1241,7 +1244,7 @@ background: black;
     left:40px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(10deg);
 
 }
@@ -1252,7 +1255,7 @@ background: black;
     left:160px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(-10deg);
 
 }
@@ -1262,7 +1265,7 @@ background: black;
     left:120px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(10deg);
 }
 .w-R{
@@ -1271,7 +1274,7 @@ background: black;
     left:80px;
     width:40px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(-10deg);
 }
 
@@ -1283,7 +1286,7 @@ background: black;
     left:80px;
     width: 45px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(30deg);
 }
 
@@ -1293,7 +1296,7 @@ background: black;
     left:80px;
     width: 45px;
     height: 230px;
-    background: black;
+    background: greenyellow;
     transform: skew(-30deg);
 }
 
@@ -1305,7 +1308,7 @@ background: black;
     left:110px;
     width: 45px;
     height: 130px;
-    background: black;
+    background: greenyellow;
     transform: skew(-25deg);
 }
 
@@ -1315,7 +1318,7 @@ background: black;
     left:50px;
     width: 45px;
     height: 130px;
-    background: black;
+    background: greenyellow;
     transform: skew(25deg);
 }
 
@@ -1325,7 +1328,7 @@ background: black;
     left:80.5px;
     width: 45px;
     height: 125px;
-    background: black;
+    background: greenyellow;
     z-index: -1;
 }
 
@@ -1338,7 +1341,7 @@ background: black;
     left:20PX;
     width:155px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 
 .z-B{
@@ -1347,14 +1350,14 @@ background: black;
     left:20PX;
     width:155px;
     height: 40px;
-    background: black;
+    background: greenyellow;
 }
 .z-R{
     position:absolute;
-    top: 40px;
+    top: 39px;
     left:75px;
     width: 45px;
-    height: 150px;
-    background: black;
+    height: 153px;
+    background: greenyellow;
     transform: skew(-36deg);
 }
